@@ -91,7 +91,7 @@ find_functions <- function(path, envir = new.env(), recursive = TRUE, separate_p
     path,
     full.names = TRUE,
     recursive = recursive,
-    pattern = ".R$"
+    pattern = "\\.R$"
   )
 
   if (length(source_files) == 0) {
